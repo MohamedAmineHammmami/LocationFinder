@@ -1,0 +1,20 @@
+body {
+  height: 100vh;
+  background: linear-gradient(115deg, #a07361, #eed7b2);
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.mapContainer {
+  height: 90vh;
+  width: 80vw;
+  box-shadow: 0 0 0.4vh 0.4vh rgb(124, 124, 124);
+  border-radius: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

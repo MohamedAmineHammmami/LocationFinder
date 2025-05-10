@@ -1,0 +1,44 @@
+.searchPlaceContainer {
+  width: 17vw;
+  height: 17vh;
+  background-color: transparent;
+  color: white;
+  border-radius: 2rem;
+  position: relative;
+  top: 10vh;
+  z-index: 1;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0.3rem 0.1rem rgb(206, 206, 206);
+  border: 1px solid black;
+}
+
+input {
+  width: 60%;
+  height: 20%;
+  margin: 0.7rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: none;
+}
+
+button {
+  width: 20%;
+  height: 20%;
+  font-weight: 900;
+  color: rgb(0, 80, 184);
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+button:hover {
+  scale: 1.1;
+}
+
+h1 {
+  color: rgb(0, 80, 184);
+  font-family: roboto;
+}
